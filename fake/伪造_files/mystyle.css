@@ -1,0 +1,121 @@
+.pjf3n91m8 .OPjf3oahobg {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+}
+
+.pjf3n91m8 .OPjf3oaho9r {
+    height: 45px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.pjf3n91m8 .OPjf3oaho9j {
+    flex: 1 1 0% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.pjf3n91m8 .OPjf3oahoae {
+    flex: 1 1 0% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.pjf7xq7o3 .OPjg21dmvd {
+ padding: 16px !important;
+}
+
+.pjf7xq7o3 .OPjg21dmvfy {
+ text-align: left !important;
+ font-size: 14px !important;
+}
+
+.pjf7xq7o3 .OPjg232fda {
+ text-align: left !important;
+ font-size: 14px !important;
+}
+
+.button-active {
+    color: #fff;
+    background: #2196f3 !important;
+}
+
+.str-cut-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.zdy-margin{
+	margin-top:16px;
+	margin-bottom:16px;
+}
+
+.OPjc70r0tn {
+ margin-top: 6px !important;
+}
+
+.OCjfai126fq .emapm-items .emapm-divide {
+	background-color:#f4f4f4 !important;
+}
+.OCjfai126fq.OCjfai126fq-hide .emapm-items .emapm-divide {
+	background-color:#f4f4f4 !important;
+	display:none;
+}
+
+.group-name:before {
+	content: " ";
+    width: 3px;
+    height: 10px;
+    display: inline-block;
+    background-color: #52c7ca;
+    position: relative;
+    margin-right: 6px;
+    top: 0px;
+}
+.mint-layout-container.OPjfahrf7on .emapm-form.emapm-form-readonly:last-child .emapm-items:last-child .emapm-divide {
+	display:none;
+}
+
+.xzdxcj{
+    padding-left: 20px!important;
+    padding-bottom: 20px!important;
+    padding-right: 20px!important;
+}
+.OPjc70r0u6l {
+ text-align: center !important;
+}
+.OPjc70r0u1e {
+ display: inline-block !important;
+}
+.OPjc70r0tye {
+ display: inline-block !important;
+ margin-left: 4px !important;
+}
+
+.mint-indicator {
+	z-index: 99999;
+    position: relative;
+}
+
+.OPjg7nmyd8a {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.selected_img {
+	border-width: 0px;
+    position: absolute;
+    z-index: 99999;
+    right: 8px;
+    top: 0px;
+    width: 24px;
+    height: 24px;
+}
