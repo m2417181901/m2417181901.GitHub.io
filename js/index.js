@@ -103,12 +103,14 @@ if(flag)
     })
 else 
     document.addEventListener('touchstart', e => {
+        e.preventDefault()
         e = e || window.event
         lastX = e.targetTouches[0].pageX;
         lastY = e.targetTouches[0].pageY;
         console.log(lastX, lastY)
         clearInterval(timer);
         this.ontouchmove = function(ev) {
+            ev.preventDefault()
             ev = ev || window.event;
 
             //当前鼠标距离页面左边的距离
