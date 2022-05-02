@@ -24,11 +24,11 @@ buttonJian.addEventListener('click',()=>{
     per.style.perspective = data.split('px')[0]*1 - 100 + 'px'
 })
 
-let timer = setInterval(()=>{
-    let nowx = st.style.transform
-    console.log(nowx)
+// let timer = setInterval(()=>{
+//     let nowx = st.style.transform
+//     console.log(nowx)
     
-},1000)
+// },1000)
 var nowX,nowY,lastX,lastY,minusX,minusY;
 var roX=-10,roY=0;
 let userAgentInfo = navigator.userAgent;
@@ -43,7 +43,7 @@ if(flag)
         e = e || window.event
         lastX = e.clientX;
         lastY = e.clientY;
-        clearInterval(timer);
+        // clearInterval(timer);
         this.onmousemove = function(ev) {
             ev = ev || window.event;
 
@@ -103,14 +103,14 @@ if(flag)
     })
 else 
     document.addEventListener('touchstart', e => {
-        e.preventDefault()
+      
         e = e || window.event
         lastX = e.targetTouches[0].pageX;
         lastY = e.targetTouches[0].pageY;
         console.log(lastX, lastY)
-        clearInterval(timer);
+        // clearInterval(timer);
         this.ontouchmove = function(ev) {
-            ev.preventDefault()
+            // ev.preventDefault()
             ev = ev || window.event;
 
             //当前鼠标距离页面左边的距离
@@ -157,10 +157,10 @@ else
                 oWarp.style.transform='rotateX('+roX+'deg) rotateY('+roY+'deg)';
                 if(Math.abs(minusX)<0.5 && Math.abs(minusY)<0.5){
                     clearInterval(timer);
-                    timer = setInterval(()=>{
-                        oWarp.style.transform='rotateX('+2+'deg) rotateY('+2+'deg)';
+                    // timer = setInterval(()=>{
+                    //     oWarp.style.transform='rotateX('+2+'deg) rotateY('+2+'deg)';
                     
-                    },1000)
+                    // },1000)
                 }
 
             },13)
