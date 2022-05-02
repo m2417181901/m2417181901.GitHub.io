@@ -91,10 +91,10 @@ if(flag)
                 oWarp.style.transform='rotateX('+roX+'deg) rotateY('+roY+'deg)';
                 if(Math.abs(minusX)<0.5 && Math.abs(minusY)<0.5){
                     clearInterval(timer);
-                    timer = setInterval(()=>{
-                        oWarp.style.transform='rotateX('+2+'deg) rotateY('+2+'deg)';
+                    // timer = setInterval(()=>{
+                    //     oWarp.style.transform='rotateX('+2+'deg) rotateY('+2+'deg)';
                     
-                    },1000)
+                    // },1000)
                 }
 
             },13)
