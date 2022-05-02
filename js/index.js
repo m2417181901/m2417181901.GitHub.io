@@ -9,6 +9,7 @@ for(i=0;i<oWarp.children.length;++i) {
 }
 
 
+let audio = document.getElementById('audio')
 
 let buttonJia = document.querySelector('#jia')
 let buttonJian = document.querySelector('#jian')
@@ -24,7 +25,7 @@ buttonJian.addEventListener('click',()=>{
     per.style.perspective = data.split('px')[0]*1 - 100 + 'px'
 })
 
-// let timer = setInterval(()=>{
+// let autotimer = setInterval(()=>{
 //     let nowx = st.style.transform
 //     console.log(nowx)
     
@@ -43,6 +44,7 @@ if(flag)
         e = e || window.event
         lastX = e.clientX;
         lastY = e.clientY;
+        audio.play();
         // clearInterval(timer);
         this.onmousemove = function(ev) {
             ev = ev || window.event;
@@ -107,12 +109,11 @@ else
         e = e || window.event
         lastX = e.targetTouches[0].pageX;
         lastY = e.targetTouches[0].pageY;
-        console.log(lastX, lastY)
+        audio.play();
         // clearInterval(timer);
         this.ontouchmove = function(ev) {
             // ev.preventDefault()
             ev = ev || window.event;
-
             //当前鼠标距离页面左边的距离
 
             nowX=ev.targetTouches[0].pageX;
