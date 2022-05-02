@@ -9,7 +9,7 @@ body {
 
 #perspective {
     /* 设置3D透视 */
-    perspective: 800px; 
+    perspective: 500px; 
 }
 #wrap {
     width: 194px;
